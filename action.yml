@@ -7,8 +7,8 @@ inputs:
     description: Desired Golang version.
     default:
   go-version-file:
-  description: Path to go.mod file, will determine Golang version. Use in place of `go-version` input.
-  default:
+    description: Path to go.mod file, will determine Golang version. Use in place of `go-version` input.
+    default:
   cache-key-suffix:
     description: Optional cache key suffix.
     default:
