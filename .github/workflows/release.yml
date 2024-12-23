@@ -50,7 +50,7 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.ACCESS_TOKEN }}
-          repository: "Drafteame/node-cache-action"
+          repository: "Drafteame/go-cache-action"
           branch: "main"
           directory: .
           tags: true
